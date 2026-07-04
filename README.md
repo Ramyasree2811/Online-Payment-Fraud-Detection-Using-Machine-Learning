@@ -25,15 +25,16 @@ We also deployed the model using **Flask Web Framework** so that users can inter
 ---
 
 ## 📂 Project Structure
+```text
 online-payment-fraud-detection-ml/
 ├── app.py # Flask application
-├── paymets.pkl # Trained Machine Learning model 
+├── payments.pkl # Trained Machine Learning model 
 ├── templates/ # HTML templates (home.html, predict.html, result.html)
 ├── static/ # CSS file
 ├── Online_Fraud_Detection.ipynb #  ML model training and evaluation
 ├── Documentation
 └── README.md # Project overview and documentation
-
+```
 ---
 
 ## 📥 Dataset Information
@@ -73,16 +74,17 @@ We have **NOT uploaded the dataset file in this repository** because the dataset
 
 1. Clone this repository.
 2. Install the required dependencies using:  
-bash
+```bash
 pip install -r requirements.txt
-
+```
 4. Run the Flask application using:
-bash
+```bash
 python app.py
-
+```
 6. Open your web browser and visit:
+```
 http://127.0.0.1:5000
-
+```
 The application will run on your local machine and can be used to predict whether an online payment transaction is fraudulent or legitimate.
 The project is also deployed on Render and can be accessed using the deployment link provided below
 
@@ -90,8 +92,9 @@ The project is also deployed on Render and can be accessed using the deployment 
 ## 🌐 Deployment Link 
 
 The project is deployed and running live on Render. You can access the live app here:
+```
 👉https://online-payment-fraud-detection-using-4a7r.onrender.com/
-
+```
 ---
 
 ## Conclusion
@@ -101,6 +104,8 @@ It covers model training, evaluation, and web deployment using Flask.
 ---
 
 📞 Contact
-For any queries, contact:
-Bandi Ramyasree, 
+For any queries, feel free to contact:
+```
+Bandi Ramyasree
 email : bandiramya88@gmail.com
+```
